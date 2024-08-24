@@ -349,7 +349,7 @@ class Status extends ImmutablePureComponent {
 
     let { status, account, ...other } = this.props;
 
-    if (status === null) {
+    if (status === null || status.get('visibility') === 'direct') {
       return null;
     }
 
