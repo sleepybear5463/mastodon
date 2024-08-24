@@ -10,15 +10,15 @@ defaults: &defaults
   site_contact_username: ''
   site_contact_email: ''
   registrations_mode: 'none'
-  profile_directory: true
+  profile_directory: false
   closed_registrations_message: ''
-  timeline_preview: true
+  timeline_preview: false
   show_staff_badge: true
   preview_sensitive_media: false
-  noindex: false
-  theme: 'default'
-  trends: true
-  trends_as_landing_page: true
+  noindex: true
+  theme: 'mastodon-bird-ui-contrast'
+  trends: false
+  trends_as_landing_page: false
   trendable_by_default: false
   reserved_usernames:
     - admin

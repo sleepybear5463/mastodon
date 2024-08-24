@@ -515,7 +515,7 @@
   "privacy.direct.short": "멘션한 사람들만",
   "privacy.private.long": "팔로워에게만 공개",
   "privacy.private.short": "팔로워 전용",
-  "privacy.public.long": "모두가 볼 수 있음",
+  "privacy.public.long": "서버의 모두가 볼 수 있음",
   "privacy.public.short": "공개",
   "privacy.unlisted.long": "모두가 볼 수 있지만, 발견하기 기능에서는 제외됨",
   "privacy.unlisted.short": "미등재",

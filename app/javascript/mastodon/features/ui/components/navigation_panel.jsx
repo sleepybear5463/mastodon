@@ -85,15 +85,15 @@ class NavigationPanel extends Component {
           </>
         )}
 
-        {trendsEnabled ? (
+        {/* {trendsEnabled ? (
           <ColumnLink transparent to='/explore' icon='hashtag' text={intl.formatMessage(messages.explore)} />
         ) : (
           <ColumnLink transparent to='/search' icon='search' text={intl.formatMessage(messages.search)} />
-        )}
+        )} */}
 
-        {(signedIn || timelinePreview) && (
+        {/* {(signedIn || timelinePreview) && (
           <ColumnLink transparent to='/public/local' isActive={this.isFirehoseActive} icon='globe' text={intl.formatMessage(messages.firehose)} />
-        )}
+        )} */}
 
         {!signedIn && (
           <div className='navigation-panel__sign-in-banner'>
