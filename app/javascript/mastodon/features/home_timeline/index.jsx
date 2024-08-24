@@ -190,9 +190,9 @@ class HomeTimeline extends PureComponent {
       banners.push(<CriticalUpdateBanner key='critical-update-banner' />);
     }
 
-    if (tooSlow) {
-      banners.push(<ExplorePrompt key='explore-prompt' />);
-    }
+    // if (tooSlow) {
+    //   banners.push(<ExplorePrompt key='explore-prompt' />);
+    // }
 
     return (
       <Column bindToDocument={!multiColumn} ref={this.setRef} label={intl.formatMessage(messages.title)}>

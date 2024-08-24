@@ -301,13 +301,13 @@ class LanguageDropdown extends PureComponent {
     return (
       <div className={classNames('privacy-dropdown', placement, { active: open })}>
         <div className='privacy-dropdown__value' ref={this.setTargetRef} >
-          <TextIconButton
+          {/* <TextIconButton
             className='privacy-dropdown__value-icon'
             label={value && value.toUpperCase()}
             title={intl.formatMessage(messages.changeLanguage)}
             active={open}
             onClick={this.handleToggle}
-          />
+          /> */}
         </div>
 
         <Overlay show={open} placement={'bottom'} flip target={this.findTarget} popperConfig={{ strategy: 'fixed', onFirstUpdate: this.handleOverlayEnter }}>

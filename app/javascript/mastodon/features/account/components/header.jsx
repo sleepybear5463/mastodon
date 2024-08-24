@@ -293,10 +293,10 @@ class Header extends ImmutablePureComponent {
       menu.push({ text: intl.formatMessage(messages.openOriginalPage), href: account.get('url') });
     }
 
-    if ('share' in navigator) {
-      menu.push({ text: intl.formatMessage(messages.share, { name: account.get('username') }), action: this.handleShare });
-      menu.push(null);
-    }
+    // if ('share' in navigator) {
+    //   menu.push({ text: intl.formatMessage(messages.share, { name: account.get('username') }), action: this.handleShare });
+    //   menu.push(null);
+    // }
 
     if (account.get('id') === me) {
       menu.push({ text: intl.formatMessage(messages.edit_profile), href: '/settings/profile' });
@@ -320,28 +320,28 @@ class Header extends ImmutablePureComponent {
             menu.push({ text: intl.formatMessage(messages.showReblogs, { name: account.get('username') }), action: this.props.onReblogToggle });
           }
 
-          menu.push({ text: intl.formatMessage(messages.languages), action: this.props.onChangeLanguages });
+          // menu.push({ text: intl.formatMessage(messages.languages), action: this.props.onChangeLanguages });
           menu.push(null);
         }
 
-        menu.push({ text: intl.formatMessage(account.getIn(['relationship', 'endorsed']) ? messages.unendorse : messages.endorse), action: this.props.onEndorseToggle });
+        // menu.push({ text: intl.formatMessage(account.getIn(['relationship', 'endorsed']) ? messages.unendorse : messages.endorse), action: this.props.onEndorseToggle });
         menu.push({ text: intl.formatMessage(messages.add_or_remove_from_list), action: this.props.onAddToList });
-        menu.push(null);
+        // menu.push(null);
       }
 
-      if (account.getIn(['relationship', 'muting'])) {
-        menu.push({ text: intl.formatMessage(messages.unmute, { name: account.get('username') }), action: this.props.onMute });
-      } else {
-        menu.push({ text: intl.formatMessage(messages.mute, { name: account.get('username') }), action: this.props.onMute, dangerous: true });
-      }
+      // if (account.getIn(['relationship', 'muting'])) {
+      //   menu.push({ text: intl.formatMessage(messages.unmute, { name: account.get('username') }), action: this.props.onMute });
+      // } else {
+      //   menu.push({ text: intl.formatMessage(messages.mute, { name: account.get('username') }), action: this.props.onMute, dangerous: true });
+      // }
 
-      if (account.getIn(['relationship', 'blocking'])) {
-        menu.push({ text: intl.formatMessage(messages.unblock, { name: account.get('username') }), action: this.props.onBlock });
-      } else {
-        menu.push({ text: intl.formatMessage(messages.block, { name: account.get('username') }), action: this.props.onBlock, dangerous: true });
-      }
+      // if (account.getIn(['relationship', 'blocking'])) {
+      //   menu.push({ text: intl.formatMessage(messages.unblock, { name: account.get('username') }), action: this.props.onBlock });
+      // } else {
+      //   menu.push({ text: intl.formatMessage(messages.block, { name: account.get('username') }), action: this.props.onBlock, dangerous: true });
+      // }
 
-      menu.push({ text: intl.formatMessage(messages.report, { name: account.get('username') }), action: this.props.onReport, dangerous: true });
+      // menu.push({ text: intl.formatMessage(messages.report, { name: account.get('username') }), action: this.props.onReport, dangerous: true });
     }
 
     if (signedIn && isRemote) {
