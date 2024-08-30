@@ -16,7 +16,7 @@ defaults: &defaults
   show_staff_badge: true
   preview_sensitive_media: false
   noindex: true
-  theme: 'mastodon-bird-ui-contrast'
+  theme: 'mastodon-bird-ui-dark'
   trends: false
   trends_as_landing_page: false
   trendable_by_default: false
