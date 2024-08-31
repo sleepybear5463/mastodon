@@ -12,19 +12,18 @@ class TagsIndex < Chewy::Index
         convert_type: 't2s',
       },
     },
-    
+
     analyzer: {
       content: {
-        tokenizer: 'keyword',
+        tokenizer: 'nori_tokenizer',
         filter: %w(
           word_delimiter_graph
           lowercase
           asciifolding
           cjk_width
         ),
+        char_filter: %w(tsconvert),
       },
-
-      char_filter: %w(tsconvert),
 
       edge_ngram: {
         tokenizer: 'edge_ngram',
