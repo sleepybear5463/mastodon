@@ -95,7 +95,7 @@ class REST::V1::InstanceSerializer < ActiveModel::Serializer
   end
 
   def invites_enabled
-    UserRole.everyone.can?(:invite_users)
+    # UserRole.everyone.can?(:invite_users)
   end
 
   private
