@@ -7,6 +7,7 @@ import ImmutablePropTypes from 'react-immutable-proptypes';
 import ImmutablePureComponent from 'react-immutable-pure-component';
 import { connect } from 'react-redux';
 
+import { NotSignedInIndicator } from 'mastodon/components/not_signed_in_indicator';
 import { TimelineHint } from 'mastodon/components/timeline_hint';
 import BundleColumnError from 'mastodon/features/ui/components/bundle_column_error';
 import { me } from 'mastodon/initial_state';
@@ -68,6 +69,10 @@ RemoteHint.propTypes = {
 };
 
 class AccountTimeline extends ImmutablePureComponent {
+
+  static contextTypes = {
+    identity: PropTypes.object,
+  };
 
   static propTypes = {
     params: PropTypes.shape({
@@ -152,6 +157,8 @@ class AccountTimeline extends ImmutablePureComponent {
   render () {
     const { accountId, statusIds, featuredStatusIds, isLoading, hasMore, blockedBy, suspended, isAccount, hidden, multiColumn, remote, remoteUrl } = this.props;
 
+    const { signedIn } = this.context.identity;
+
     if (isLoading && statusIds.isEmpty()) {
       return (
         <Column>
@@ -182,7 +189,7 @@ class AccountTimeline extends ImmutablePureComponent {
 
     const remoteMessage = remote ? <RemoteHint url={remoteUrl} /> : null;
 
-    return (
+    return signedIn ? (
       <Column>
         <ColumnBackButton multiColumn={multiColumn} />
 
@@ -201,7 +208,7 @@ class AccountTimeline extends ImmutablePureComponent {
           timelineId='account'
         />
       </Column>
-    );
+    ) : <NotSignedInIndicator />
   }
 
 }
