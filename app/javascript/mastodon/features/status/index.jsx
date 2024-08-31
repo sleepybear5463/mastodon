@@ -15,6 +15,7 @@ import { HotKeys } from 'react-hotkeys';
 
 import { Icon }  from 'mastodon/components/icon';
 import { LoadingIndicator } from 'mastodon/components/loading_indicator';
+import { NotSignedInIndicator } from 'mastodon/components/not_signed_in_indicator';
 import ScrollContainer from 'mastodon/containers/scroll_container';
 import BundleColumnError from 'mastodon/features/ui/components/bundle_column_error';
 
@@ -638,6 +639,8 @@ class Status extends ImmutablePureComponent {
     const { isLoading, status, ancestorsIds, descendantsIds, intl, domain, multiColumn, pictureInPicture } = this.props;
     const { fullscreen } = this.state;
 
+    const { signedIn } = this.context.identity;
+
     if (isLoading) {
       return (
         <Column>
@@ -676,7 +679,7 @@ class Status extends ImmutablePureComponent {
       openMedia: this.handleHotkeyOpenMedia,
     };
 
-    return (
+    return signedIn ? (
       <Column bindToDocument={!multiColumn} label={intl.formatMessage(messages.detailedStatus)}>
         <ColumnHeader
           showBackButton
@@ -740,7 +743,7 @@ class Status extends ImmutablePureComponent {
           <link rel='canonical' href={status.get('url')} />
         </Helmet>
       </Column>
-    );
+    ) : <NotSignedInIndicator />
   }
 
 }
