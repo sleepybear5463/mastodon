@@ -14,6 +14,8 @@ class TagsIndex < Chewy::Index
           cjk_width
         ),
       },
+      
+      char_filter: %w(tsconvert),
 
       edge_ngram: {
         tokenizer: 'edge_ngram',
