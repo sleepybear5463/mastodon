@@ -23,7 +23,7 @@ class AccountsIndex < Chewy::Index
 
     analyzer: {
       natural: {
-        tokenizer: 'nori_tokenizer',
+        tokenizer: 'standard',
         filter: %w(
           lowercase
           asciifolding
@@ -36,7 +36,7 @@ class AccountsIndex < Chewy::Index
       },
 
       verbatim: {
-        tokenizer: 'whitespace',
+        tokenizer: 'standard',
         filter: %w(lowercase asciifolding cjk_width),
       },
 
