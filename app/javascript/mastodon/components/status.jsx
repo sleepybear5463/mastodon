@@ -116,6 +116,7 @@ class Status extends ImmutablePureComponent {
       inUse: PropTypes.bool,
       available: PropTypes.bool,
     }),
+    contextType: PropTypes.string,
   };
 
   // Avoid checking props that are functions (and whose equality will always
@@ -347,9 +348,11 @@ class Status extends ImmutablePureComponent {
   render () {
     const { intl, hidden, featured, unread, showThread, scrollKey, pictureInPicture, previousId, nextInReplyToId, rootId } = this.props;
 
-    let { status, account, ...other } = this.props;
+    let { status, account, contextType, ...other } = this.props;
 
-    if (status === null || status.get('visibility') === 'direct') {
+    const { router } = this.context;
+
+    if (status === null || (contextType === 'home' && status.get('visibility') === 'direct')) {
       return null;
     }
 
