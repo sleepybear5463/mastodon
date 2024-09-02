@@ -1,1 +1,0 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["public-path"],[],[["./app/javascript/packs/public-path.js","common"]]]);
