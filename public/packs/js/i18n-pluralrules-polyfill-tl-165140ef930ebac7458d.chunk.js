@@ -1,0 +1,14 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["i18n-pluralrules-polyfill-tl"],{
+
+/***/ "./node_modules/@formatjs/intl-pluralrules/locale-data/tl.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/@formatjs/intl-pluralrules/locale-data/tl.js ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("/* @generated */\n// prettier-ignore\nif (Intl.PluralRules && typeof Intl.PluralRules.__addLocaleData === 'function') {\n  Intl.PluralRules.__addLocaleData({\n    \"data\": {\n      \"categories\": {\n        \"cardinal\": [\"one\", \"other\"],\n        \"ordinal\": [\"one\", \"other\"]\n      },\n      \"fn\": function fn(n, ord) {\n        var s = String(n).split('.'),\n          i = s[0],\n          f = s[1] || '',\n          v0 = !s[1],\n          i10 = i.slice(-1),\n          f10 = f.slice(-1);\n        if (ord) return n == 1 ? 'one' : 'other';\n        return v0 && (i == 1 || i == 2 || i == 3) || v0 && i10 != 4 && i10 != 6 && i10 != 9 || !v0 && f10 != 4 && f10 != 6 && f10 != 9 ? 'one' : 'other';\n      }\n    },\n    \"locale\": \"tl\"\n  });\n}//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvQGZvcm1hdGpzL2ludGwtcGx1cmFscnVsZXMvbG9jYWxlLWRhdGEvdGwuanMuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9ub2RlX21vZHVsZXMvQGZvcm1hdGpzL2ludGwtcGx1cmFscnVsZXMvbG9jYWxlLWRhdGEvdGwuanM/YWIzMSJdLCJzb3VyY2VzQ29udGVudCI6WyIvKiBAZ2VuZXJhdGVkICovXG4vLyBwcmV0dGllci1pZ25vcmVcbmlmIChJbnRsLlBsdXJhbFJ1bGVzICYmIHR5cGVvZiBJbnRsLlBsdXJhbFJ1bGVzLl9fYWRkTG9jYWxlRGF0YSA9PT0gJ2Z1bmN0aW9uJykge1xuICBJbnRsLlBsdXJhbFJ1bGVzLl9fYWRkTG9jYWxlRGF0YSh7XG4gICAgXCJkYXRhXCI6IHtcbiAgICAgIFwiY2F0ZWdvcmllc1wiOiB7XG4gICAgICAgIFwiY2FyZGluYWxcIjogW1wib25lXCIsIFwib3RoZXJcIl0sXG4gICAgICAgIFwib3JkaW5hbFwiOiBbXCJvbmVcIiwgXCJvdGhlclwiXVxuICAgICAgfSxcbiAgICAgIFwiZm5cIjogZnVuY3Rpb24gZm4obiwgb3JkKSB7XG4gICAgICAgIHZhciBzID0gU3RyaW5nKG4pLnNwbGl0KCcuJyksXG4gICAgICAgICAgaSA9IHNbMF0sXG4gICAgICAgICAgZiA9IHNbMV0gfHwgJycsXG4gICAgICAgICAgdjAgPSAhc1sxXSxcbiAgICAgICAgICBpMTAgPSBpLnNsaWNlKC0xKSxcbiAgICAgICAgICBmMTAgPSBmLnNsaWNlKC0xKTtcbiAgICAgICAgaWYgKG9yZCkgcmV0dXJuIG4gPT0gMSA/ICdvbmUnIDogJ290aGVyJztcbiAgICAgICAgcmV0dXJuIHYwICYmIChpID09IDEgfHwgaSA9PSAyIHx8IGkgPT0gMykgfHwgdjAgJiYgaTEwICE9IDQgJiYgaTEwICE9IDYgJiYgaTEwICE9IDkgfHwgIXYwICYmIGYxMCAhPSA0ICYmIGYxMCAhPSA2ICYmIGYxMCAhPSA5ID8gJ29uZScgOiAnb3RoZXInO1xuICAgICAgfVxuICAgIH0sXG4gICAgXCJsb2NhbGVcIjogXCJ0bFwiXG4gIH0pO1xufSJdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./node_modules/@formatjs/intl-pluralrules/locale-data/tl.js\n");
+
+/***/ })
+
+}]);

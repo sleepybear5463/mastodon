@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[600],{1225:function(n,e,r){"use strict";r.r(e),r.d(e,"default",(function(){return c}));var t=r(0),o=r(2),s=r(77);class c extends o.PureComponent{render(){const{children:n}=this.props;return Object(t.a)(s.a,{},void 0,n)}}}}]);
+//# sourceMappingURL=600-ec57bf14a37e9dbcfe56.chunk.js.map
