@@ -936,19 +936,19 @@
       "assets": {
         "css": [
           "/packs/css/common-a729b6b0.css",
-          "/packs/css/mastodon-bird-ui-light-e4940109.chunk.css"
+          "/packs/css/mastodon-bird-ui-light-f3ce91eb.chunk.css"
         ],
         "js": [
           "/packs/js/common-9a23548505459dba3ca6.js",
-          "/packs/js/mastodon-bird-ui-light-5d286496e09eea7a8ed1.chunk.js"
+          "/packs/js/mastodon-bird-ui-light-9431a4e6f8c73482b8a0.chunk.js"
         ],
         "css.map": [
           "/packs/css/common-a729b6b0.css.map",
-          "/packs/css/mastodon-bird-ui-light-e4940109.chunk.css.map"
+          "/packs/css/mastodon-bird-ui-light-f3ce91eb.chunk.css.map"
         ],
         "js.map": [
           "/packs/js/common-9a23548505459dba3ca6.js.map",
-          "/packs/js/mastodon-bird-ui-light-5d286496e09eea7a8ed1.chunk.js.map"
+          "/packs/js/mastodon-bird-ui-light-9431a4e6f8c73482b8a0.chunk.js.map"
         ]
       }
     },
@@ -956,19 +956,19 @@
       "assets": {
         "css": [
           "/packs/css/common-a729b6b0.css",
-          "/packs/css/mastodon-bird-ui-contrast-fa126c0d.chunk.css"
+          "/packs/css/mastodon-bird-ui-contrast-c2ac3e9f.chunk.css"
         ],
         "js": [
           "/packs/js/common-9a23548505459dba3ca6.js",
-          "/packs/js/mastodon-bird-ui-contrast-1c19afbe15b3ba53d541.chunk.js"
+          "/packs/js/mastodon-bird-ui-contrast-9177fa9077661df40211.chunk.js"
         ],
         "css.map": [
           "/packs/css/common-a729b6b0.css.map",
-          "/packs/css/mastodon-bird-ui-contrast-fa126c0d.chunk.css.map"
+          "/packs/css/mastodon-bird-ui-contrast-c2ac3e9f.chunk.css.map"
         ],
         "js.map": [
           "/packs/js/common-9a23548505459dba3ca6.js.map",
-          "/packs/js/mastodon-bird-ui-contrast-1c19afbe15b3ba53d541.chunk.js.map"
+          "/packs/js/mastodon-bird-ui-contrast-9177fa9077661df40211.chunk.js.map"
         ]
       }
     },
@@ -976,19 +976,19 @@
       "assets": {
         "css": [
           "/packs/css/common-a729b6b0.css",
-          "/packs/css/mastodon-bird-ui-dark-06e2ef48.chunk.css"
+          "/packs/css/mastodon-bird-ui-dark-1e2f1385.chunk.css"
         ],
         "js": [
           "/packs/js/common-9a23548505459dba3ca6.js",
-          "/packs/js/mastodon-bird-ui-dark-5b832d5a4b2c443cf713.chunk.js"
+          "/packs/js/mastodon-bird-ui-dark-67066bd41cdfc922d55c.chunk.js"
         ],
         "css.map": [
           "/packs/css/common-a729b6b0.css.map",
-          "/packs/css/mastodon-bird-ui-dark-06e2ef48.chunk.css.map"
+          "/packs/css/mastodon-bird-ui-dark-1e2f1385.chunk.css.map"
         ],
         "js.map": [
           "/packs/js/common-9a23548505459dba3ca6.js.map",
-          "/packs/js/mastodon-bird-ui-dark-5b832d5a4b2c443cf713.chunk.js.map"
+          "/packs/js/mastodon-bird-ui-dark-67066bd41cdfc922d55c.chunk.js.map"
         ]
       }
     }
@@ -5582,52 +5582,52 @@
     "integrity": "sha256-x+J/u/jnR3s81mEHUmOJqa5b0Bzvd1IFBRL1ZU46+8Y="
   },
   "mastodon-bird-ui-contrast.css": {
-    "src": "/packs/css/mastodon-bird-ui-contrast-fa126c0d.chunk.css",
-    "integrity": "sha256-Q+FadiXQJZHruZAcSPuqq/bX+DaxqhAd4QjKOIreO/Y="
+    "src": "/packs/css/mastodon-bird-ui-contrast-c2ac3e9f.chunk.css",
+    "integrity": "sha256-1CXeld/O0vt7rs5pjh0ZFX4YGCsXWnhBnps8lxVlV4A="
   },
   "mastodon-bird-ui-contrast.css.map": {
-    "src": "/packs/css/mastodon-bird-ui-contrast-fa126c0d.chunk.css.map",
-    "integrity": "sha256-QKWXOj/737pZyxU02ptwJHQAC2LtYbhDjrJ4tmDsZsc="
+    "src": "/packs/css/mastodon-bird-ui-contrast-c2ac3e9f.chunk.css.map",
+    "integrity": "sha256-XW1yHLqj5i5fsCKc98C04afT4RqyH4dREXWT5ZdYwCs="
   },
   "mastodon-bird-ui-contrast.js": {
-    "src": "/packs/js/mastodon-bird-ui-contrast-1c19afbe15b3ba53d541.chunk.js",
-    "integrity": "sha256-O0VV+OSlPaR4WFJgeC5Ez0gWo1WYNiKewb3CNMv/aDM="
+    "src": "/packs/js/mastodon-bird-ui-contrast-9177fa9077661df40211.chunk.js",
+    "integrity": "sha256-gAwpCn0pB6uZoJQT5f5f8NHDe6zkOCGrAemVzI9Ebf8="
   },
   "mastodon-bird-ui-contrast.js.map": {
-    "src": "/packs/js/mastodon-bird-ui-contrast-1c19afbe15b3ba53d541.chunk.js.map",
-    "integrity": "sha256-ynVsYFtn39R+XWbQFh/5ls5zjQrWbxNcnRfb9nsk8IM="
+    "src": "/packs/js/mastodon-bird-ui-contrast-9177fa9077661df40211.chunk.js.map",
+    "integrity": "sha256-OwOueQ3ku7Ve5nzMOY++/YKQUsVXwwJlqAI2VlWeiBk="
   },
   "mastodon-bird-ui-dark.css": {
-    "src": "/packs/css/mastodon-bird-ui-dark-06e2ef48.chunk.css",
-    "integrity": "sha256-jmdcCLaroxtCjDw/aiYs//3oioVXbmGQIJ2XfTwOw4g="
+    "src": "/packs/css/mastodon-bird-ui-dark-1e2f1385.chunk.css",
+    "integrity": "sha256-ZOVcX+myOQwzduDcivFdmLKCkPUtpYCf/rborskyqEA="
   },
   "mastodon-bird-ui-dark.css.map": {
-    "src": "/packs/css/mastodon-bird-ui-dark-06e2ef48.chunk.css.map",
-    "integrity": "sha256-Yw6942WrJd1gUYM0+iSMsFI2PaozbZTzN0+k3s/QCSQ="
+    "src": "/packs/css/mastodon-bird-ui-dark-1e2f1385.chunk.css.map",
+    "integrity": "sha256-RZjhzbahrM+i4rJ/DKgY0XQv2+ZfuVp27VYwiXO8NSE="
   },
   "mastodon-bird-ui-dark.js": {
-    "src": "/packs/js/mastodon-bird-ui-dark-5b832d5a4b2c443cf713.chunk.js",
-    "integrity": "sha256-sxVBYsMV6FTFqei01IPPvLa49bBV/3OR6An+1OFJ4K8="
+    "src": "/packs/js/mastodon-bird-ui-dark-67066bd41cdfc922d55c.chunk.js",
+    "integrity": "sha256-CZCoL0/bOZQdca/YiVgv3mIa3qLrSVIqbqwZBqaXr38="
   },
   "mastodon-bird-ui-dark.js.map": {
-    "src": "/packs/js/mastodon-bird-ui-dark-5b832d5a4b2c443cf713.chunk.js.map",
-    "integrity": "sha256-tD0W6qRL79BQ00C1IjPh4CzI7Qr2h7dfUKD2R4dVl2w="
+    "src": "/packs/js/mastodon-bird-ui-dark-67066bd41cdfc922d55c.chunk.js.map",
+    "integrity": "sha256-XPS1ZrKzIFeiUqwRsTlO1sRKRWCoIPWdmYrMlKssRz0="
   },
   "mastodon-bird-ui-light.css": {
-    "src": "/packs/css/mastodon-bird-ui-light-e4940109.chunk.css",
-    "integrity": "sha256-mhbwhpGRiFCr3wQqt+FqyDDPOo4OTGhchkd9bvWDN7Q="
+    "src": "/packs/css/mastodon-bird-ui-light-f3ce91eb.chunk.css",
+    "integrity": "sha256-zmbSWBrB/AYQOfU9j5oOR1iep95kQD5kd5z5TBHiozM="
   },
   "mastodon-bird-ui-light.css.map": {
-    "src": "/packs/css/mastodon-bird-ui-light-e4940109.chunk.css.map",
-    "integrity": "sha256-y82PQxlBTw9ARnG1tWLnXHgu8RDQOedQFe8DNtJNXvM="
+    "src": "/packs/css/mastodon-bird-ui-light-f3ce91eb.chunk.css.map",
+    "integrity": "sha256-qW/TYqPu0O0/15Mp5hfTT8EoWvjaRdRTzbnUnbXdBuw="
   },
   "mastodon-bird-ui-light.js": {
-    "src": "/packs/js/mastodon-bird-ui-light-5d286496e09eea7a8ed1.chunk.js",
-    "integrity": "sha256-H3nh8ZjbLCbuOmH/QNwjGz9touB6/klJTgZCgIxXzAE="
+    "src": "/packs/js/mastodon-bird-ui-light-9431a4e6f8c73482b8a0.chunk.js",
+    "integrity": "sha256-e2euwKR2EGqOjxNckQsk6smPSovK7RgKm5yTSITneZw="
   },
   "mastodon-bird-ui-light.js.map": {
-    "src": "/packs/js/mastodon-bird-ui-light-5d286496e09eea7a8ed1.chunk.js.map",
-    "integrity": "sha256-L3T9tzhTIjX1obQCn9mdUFOLTFnlIQg885+TxzkoIg4="
+    "src": "/packs/js/mastodon-bird-ui-light-9431a4e6f8c73482b8a0.chunk.js.map",
+    "integrity": "sha256-/Ll1bWoGPzo+RyirluSoyZXXKuhkEGnqlixDuqmWX20="
   },
   "mastodon-light.css": {
     "src": "/packs/css/mastodon-light-7cb52d19.chunk.css",
