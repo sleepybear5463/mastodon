@@ -40,12 +40,12 @@
     "integrity": "sha256-O0GiJn7WtxEViEZfK57FgEZe8Bx21AtA6hQHbQHp33o="
   },
   "common.js": {
-    "src": "/packs/js/common-961d89056e0b1d65d120.js",
-    "integrity": "sha256-ApeSLbHICbRhxJs6SzKZVpFjRjeWXJabwGJxWEA4rvg="
+    "src": "/packs/js/common-63952470a375d946356b.js",
+    "integrity": "sha256-DgkXK22DLe6Hiz+kiEEbBTEHXMW++zUOchdfWdZeRDo="
   },
   "common.js.map": {
-    "src": "/packs/js/common-961d89056e0b1d65d120.js.map",
-    "integrity": "sha256-L3J7E+gzMC5vADoGyjI8PpUcD883txOwIl9KNJVkYKA="
+    "src": "/packs/js/common-63952470a375d946356b.js.map",
+    "integrity": "sha256-zb+NCSsUQgokMvcQ+Bl3Ilxit3NRkVIpW3JLLQRmvrs="
   },
   "containers/media_container.js": {
     "src": "/packs/js/containers/media_container-a35927931c565a4867b4.chunk.js",
@@ -102,14 +102,14 @@
           "/packs/css/common-a729b6b0.css"
         ],
         "js": [
-          "/packs/js/common-961d89056e0b1d65d120.js",
+          "/packs/js/common-63952470a375d946356b.js",
           "/packs/js/two_factor_authentication-b175899ee5b24e4e3c1e.chunk.js"
         ],
         "css.map": [
           "/packs/css/common-a729b6b0.css.map"
         ],
         "js.map": [
-          "/packs/js/common-961d89056e0b1d65d120.js.map",
+          "/packs/js/common-63952470a375d946356b.js.map",
           "/packs/js/two_factor_authentication-b175899ee5b24e4e3c1e.chunk.js.map"
         ]
       }
@@ -120,14 +120,14 @@
           "/packs/css/common-a729b6b0.css"
         ],
         "js": [
-          "/packs/js/common-961d89056e0b1d65d120.js",
+          "/packs/js/common-63952470a375d946356b.js",
           "/packs/js/sign_up-f1aef468e8ac3b042892.chunk.js"
         ],
         "css.map": [
           "/packs/css/common-a729b6b0.css.map"
         ],
         "js.map": [
-          "/packs/js/common-961d89056e0b1d65d120.js.map",
+          "/packs/js/common-63952470a375d946356b.js.map",
           "/packs/js/sign_up-f1aef468e8ac3b042892.chunk.js.map"
         ]
       }
@@ -138,14 +138,14 @@
           "/packs/css/common-a729b6b0.css"
         ],
         "js": [
-          "/packs/js/common-961d89056e0b1d65d120.js",
+          "/packs/js/common-63952470a375d946356b.js",
           "/packs/js/share-6e469ba24f46dce59fd6.chunk.js"
         ],
         "css.map": [
           "/packs/css/common-a729b6b0.css.map"
         ],
         "js.map": [
-          "/packs/js/common-961d89056e0b1d65d120.js.map",
+          "/packs/js/common-63952470a375d946356b.js.map",
           "/packs/js/share-6e469ba24f46dce59fd6.chunk.js.map"
         ]
       },
@@ -200,7 +200,7 @@
           "/packs/js/locale/kab-json-835f3c177a044551df46.chunk.js",
           "/packs/js/locale/kk-json-6842440a8fc7fb493609.chunk.js",
           "/packs/js/locale/kn-json-015515145d4a92efe946.chunk.js",
-          "/packs/js/locale/ko-json-f767f8aef7145a9fb709.chunk.js",
+          "/packs/js/locale/ko-json-a0fbe5905467f3001eef.chunk.js",
           "/packs/js/locale/ku-json-9117851efd2d862393ff.chunk.js",
           "/packs/js/locale/kw-json-6a18ca79db7adc1d512c.chunk.js",
           "/packs/js/locale/la-json-8506bd7022b30742395b.chunk.js",
@@ -298,7 +298,7 @@
           "/packs/js/locale/kab-json-835f3c177a044551df46.chunk.js.map",
           "/packs/js/locale/kk-json-6842440a8fc7fb493609.chunk.js.map",
           "/packs/js/locale/kn-json-015515145d4a92efe946.chunk.js.map",
-          "/packs/js/locale/ko-json-f767f8aef7145a9fb709.chunk.js.map",
+          "/packs/js/locale/ko-json-a0fbe5905467f3001eef.chunk.js.map",
           "/packs/js/locale/ku-json-9117851efd2d862393ff.chunk.js.map",
           "/packs/js/locale/kw-json-6a18ca79db7adc1d512c.chunk.js.map",
           "/packs/js/locale/la-json-8506bd7022b30742395b.chunk.js.map",
@@ -354,14 +354,14 @@
           "/packs/css/common-a729b6b0.css"
         ],
         "js": [
-          "/packs/js/common-961d89056e0b1d65d120.js",
+          "/packs/js/common-63952470a375d946356b.js",
           "/packs/js/remote_interaction_helper-b0157e769dd8a1e96d57.chunk.js"
         ],
         "css.map": [
           "/packs/css/common-a729b6b0.css.map"
         ],
         "js.map": [
-          "/packs/js/common-961d89056e0b1d65d120.js.map",
+          "/packs/js/common-63952470a375d946356b.js.map",
           "/packs/js/remote_interaction_helper-b0157e769dd8a1e96d57.chunk.js.map"
         ]
       }
@@ -372,14 +372,14 @@
           "/packs/css/common-a729b6b0.css"
         ],
         "js": [
-          "/packs/js/common-961d89056e0b1d65d120.js",
+          "/packs/js/common-63952470a375d946356b.js",
           "/packs/js/public-93d62f79d375eb4d8cb9.chunk.js"
         ],
         "css.map": [
           "/packs/css/common-a729b6b0.css.map"
         ],
         "js.map": [
-          "/packs/js/common-961d89056e0b1d65d120.js.map",
+          "/packs/js/common-63952470a375d946356b.js.map",
           "/packs/js/public-93d62f79d375eb4d8cb9.chunk.js.map"
         ]
       },
@@ -434,7 +434,7 @@
           "/packs/js/locale/kab-json-835f3c177a044551df46.chunk.js",
           "/packs/js/locale/kk-json-6842440a8fc7fb493609.chunk.js",
           "/packs/js/locale/kn-json-015515145d4a92efe946.chunk.js",
-          "/packs/js/locale/ko-json-f767f8aef7145a9fb709.chunk.js",
+          "/packs/js/locale/ko-json-a0fbe5905467f3001eef.chunk.js",
           "/packs/js/locale/ku-json-9117851efd2d862393ff.chunk.js",
           "/packs/js/locale/kw-json-6a18ca79db7adc1d512c.chunk.js",
           "/packs/js/locale/la-json-8506bd7022b30742395b.chunk.js",
@@ -532,7 +532,7 @@
           "/packs/js/locale/kab-json-835f3c177a044551df46.chunk.js.map",
           "/packs/js/locale/kk-json-6842440a8fc7fb493609.chunk.js.map",
           "/packs/js/locale/kn-json-015515145d4a92efe946.chunk.js.map",
-          "/packs/js/locale/ko-json-f767f8aef7145a9fb709.chunk.js.map",
+          "/packs/js/locale/ko-json-a0fbe5905467f3001eef.chunk.js.map",
           "/packs/js/locale/ku-json-9117851efd2d862393ff.chunk.js.map",
           "/packs/js/locale/kw-json-6a18ca79db7adc1d512c.chunk.js.map",
           "/packs/js/locale/la-json-8506bd7022b30742395b.chunk.js.map",
@@ -588,14 +588,14 @@
           "/packs/css/common-a729b6b0.css"
         ],
         "js": [
-          "/packs/js/common-961d89056e0b1d65d120.js",
+          "/packs/js/common-63952470a375d946356b.js",
           "/packs/js/public-path-47b97be43d9ccd67caac.chunk.js"
         ],
         "css.map": [
           "/packs/css/common-a729b6b0.css.map"
         ],
         "js.map": [
-          "/packs/js/common-961d89056e0b1d65d120.js.map",
+          "/packs/js/common-63952470a375d946356b.js.map",
           "/packs/js/public-path-47b97be43d9ccd67caac.chunk.js.map"
         ]
       }
@@ -607,7 +607,7 @@
           "/packs/css/mailer-47e61cac.chunk.css"
         ],
         "js": [
-          "/packs/js/common-961d89056e0b1d65d120.js",
+          "/packs/js/common-63952470a375d946356b.js",
           "/packs/js/mailer-74188aeb3a6d4b659eee.chunk.js"
         ],
         "css.map": [
@@ -615,7 +615,7 @@
           "/packs/css/mailer-47e61cac.chunk.css.map"
         ],
         "js.map": [
-          "/packs/js/common-961d89056e0b1d65d120.js.map",
+          "/packs/js/common-63952470a375d946356b.js.map",
           "/packs/js/mailer-74188aeb3a6d4b659eee.chunk.js.map"
         ]
       }
@@ -626,14 +626,14 @@
           "/packs/css/common-a729b6b0.css"
         ],
         "js": [
-          "/packs/js/common-961d89056e0b1d65d120.js",
+          "/packs/js/common-63952470a375d946356b.js",
           "/packs/js/error-49353d9991991d9696db.chunk.js"
         ],
         "css.map": [
           "/packs/css/common-a729b6b0.css.map"
         ],
         "js.map": [
-          "/packs/js/common-961d89056e0b1d65d120.js.map",
+          "/packs/js/common-63952470a375d946356b.js.map",
           "/packs/js/error-49353d9991991d9696db.chunk.js.map"
         ]
       }
@@ -644,14 +644,14 @@
           "/packs/css/common-a729b6b0.css"
         ],
         "js": [
-          "/packs/js/common-961d89056e0b1d65d120.js",
+          "/packs/js/common-63952470a375d946356b.js",
           "/packs/js/application-7e719ed9cbca54e3e42e.chunk.js"
         ],
         "css.map": [
           "/packs/css/common-a729b6b0.css.map"
         ],
         "js.map": [
-          "/packs/js/common-961d89056e0b1d65d120.js.map",
+          "/packs/js/common-63952470a375d946356b.js.map",
           "/packs/js/application-7e719ed9cbca54e3e42e.chunk.js.map"
         ]
       },
@@ -706,7 +706,7 @@
           "/packs/js/locale/kab-json-835f3c177a044551df46.chunk.js",
           "/packs/js/locale/kk-json-6842440a8fc7fb493609.chunk.js",
           "/packs/js/locale/kn-json-015515145d4a92efe946.chunk.js",
-          "/packs/js/locale/ko-json-f767f8aef7145a9fb709.chunk.js",
+          "/packs/js/locale/ko-json-a0fbe5905467f3001eef.chunk.js",
           "/packs/js/locale/ku-json-9117851efd2d862393ff.chunk.js",
           "/packs/js/locale/kw-json-6a18ca79db7adc1d512c.chunk.js",
           "/packs/js/locale/la-json-8506bd7022b30742395b.chunk.js",
@@ -804,7 +804,7 @@
           "/packs/js/locale/kab-json-835f3c177a044551df46.chunk.js.map",
           "/packs/js/locale/kk-json-6842440a8fc7fb493609.chunk.js.map",
           "/packs/js/locale/kn-json-015515145d4a92efe946.chunk.js.map",
-          "/packs/js/locale/ko-json-f767f8aef7145a9fb709.chunk.js.map",
+          "/packs/js/locale/ko-json-a0fbe5905467f3001eef.chunk.js.map",
           "/packs/js/locale/ku-json-9117851efd2d862393ff.chunk.js.map",
           "/packs/js/locale/kw-json-6a18ca79db7adc1d512c.chunk.js.map",
           "/packs/js/locale/la-json-8506bd7022b30742395b.chunk.js.map",
@@ -860,14 +860,14 @@
           "/packs/css/common-a729b6b0.css"
         ],
         "js": [
-          "/packs/js/common-961d89056e0b1d65d120.js",
+          "/packs/js/common-63952470a375d946356b.js",
           "/packs/js/admin-6396b3572bc1105ed48b.chunk.js"
         ],
         "css.map": [
           "/packs/css/common-a729b6b0.css.map"
         ],
         "js.map": [
-          "/packs/js/common-961d89056e0b1d65d120.js.map",
+          "/packs/js/common-63952470a375d946356b.js.map",
           "/packs/js/admin-6396b3572bc1105ed48b.chunk.js.map"
         ]
       }
@@ -879,7 +879,7 @@
           "/packs/css/default-df299a32.chunk.css"
         ],
         "js": [
-          "/packs/js/common-961d89056e0b1d65d120.js",
+          "/packs/js/common-63952470a375d946356b.js",
           "/packs/js/default-a270dffe90d174c68f0d.chunk.js"
         ],
         "css.map": [
@@ -887,7 +887,7 @@
           "/packs/css/default-df299a32.chunk.css.map"
         ],
         "js.map": [
-          "/packs/js/common-961d89056e0b1d65d120.js.map",
+          "/packs/js/common-63952470a375d946356b.js.map",
           "/packs/js/default-a270dffe90d174c68f0d.chunk.js.map"
         ]
       }
@@ -899,7 +899,7 @@
           "/packs/css/contrast-ffdc2fd9.chunk.css"
         ],
         "js": [
-          "/packs/js/common-961d89056e0b1d65d120.js",
+          "/packs/js/common-63952470a375d946356b.js",
           "/packs/js/contrast-c4bd437b1319eda5d7dc.chunk.js"
         ],
         "css.map": [
@@ -907,7 +907,7 @@
           "/packs/css/contrast-ffdc2fd9.chunk.css.map"
         ],
         "js.map": [
-          "/packs/js/common-961d89056e0b1d65d120.js.map",
+          "/packs/js/common-63952470a375d946356b.js.map",
           "/packs/js/contrast-c4bd437b1319eda5d7dc.chunk.js.map"
         ]
       }
@@ -919,7 +919,7 @@
           "/packs/css/mastodon-light-7cb52d19.chunk.css"
         ],
         "js": [
-          "/packs/js/common-961d89056e0b1d65d120.js",
+          "/packs/js/common-63952470a375d946356b.js",
           "/packs/js/mastodon-light-c938fbd38e1a55b949a3.chunk.js"
         ],
         "css.map": [
@@ -927,7 +927,7 @@
           "/packs/css/mastodon-light-7cb52d19.chunk.css.map"
         ],
         "js.map": [
-          "/packs/js/common-961d89056e0b1d65d120.js.map",
+          "/packs/js/common-63952470a375d946356b.js.map",
           "/packs/js/mastodon-light-c938fbd38e1a55b949a3.chunk.js.map"
         ]
       }
@@ -939,7 +939,7 @@
           "/packs/css/mastodon-bird-ui-light-e4940109.chunk.css"
         ],
         "js": [
-          "/packs/js/common-961d89056e0b1d65d120.js",
+          "/packs/js/common-63952470a375d946356b.js",
           "/packs/js/mastodon-bird-ui-light-5d286496e09eea7a8ed1.chunk.js"
         ],
         "css.map": [
@@ -947,7 +947,7 @@
           "/packs/css/mastodon-bird-ui-light-e4940109.chunk.css.map"
         ],
         "js.map": [
-          "/packs/js/common-961d89056e0b1d65d120.js.map",
+          "/packs/js/common-63952470a375d946356b.js.map",
           "/packs/js/mastodon-bird-ui-light-5d286496e09eea7a8ed1.chunk.js.map"
         ]
       }
@@ -959,7 +959,7 @@
           "/packs/css/mastodon-bird-ui-contrast-fa126c0d.chunk.css"
         ],
         "js": [
-          "/packs/js/common-961d89056e0b1d65d120.js",
+          "/packs/js/common-63952470a375d946356b.js",
           "/packs/js/mastodon-bird-ui-contrast-1c19afbe15b3ba53d541.chunk.js"
         ],
         "css.map": [
@@ -967,7 +967,7 @@
           "/packs/css/mastodon-bird-ui-contrast-fa126c0d.chunk.css.map"
         ],
         "js.map": [
-          "/packs/js/common-961d89056e0b1d65d120.js.map",
+          "/packs/js/common-63952470a375d946356b.js.map",
           "/packs/js/mastodon-bird-ui-contrast-1c19afbe15b3ba53d541.chunk.js.map"
         ]
       }
@@ -979,7 +979,7 @@
           "/packs/css/mastodon-bird-ui-dark-06e2ef48.chunk.css"
         ],
         "js": [
-          "/packs/js/common-961d89056e0b1d65d120.js",
+          "/packs/js/common-63952470a375d946356b.js",
           "/packs/js/mastodon-bird-ui-dark-5b832d5a4b2c443cf713.chunk.js"
         ],
         "css.map": [
@@ -987,7 +987,7 @@
           "/packs/css/mastodon-bird-ui-dark-06e2ef48.chunk.css.map"
         ],
         "js.map": [
-          "/packs/js/common-961d89056e0b1d65d120.js.map",
+          "/packs/js/common-63952470a375d946356b.js.map",
           "/packs/js/mastodon-bird-ui-dark-5b832d5a4b2c443cf713.chunk.js.map"
         ]
       }
@@ -4793,8 +4793,8 @@
     "src": "/packs/js/600-ec57bf14a37e9dbcfe56.chunk.js.map",
     "integrity": "sha256-ajA7OtE8v0hu4ARYhjQ7+fFDGnXsWD0OobMH+v6AlNY="
   },
-  "js/common-961d89056e0b1d65d120.js.LICENSE.txt": {
-    "src": "/packs/js/common-961d89056e0b1d65d120.js.LICENSE.txt",
+  "js/common-63952470a375d946356b.js.LICENSE.txt": {
+    "src": "/packs/js/common-63952470a375d946356b.js.LICENSE.txt",
     "integrity": "sha256-JNsgjfp8/+hFKnVYdwyM80d+BPYTTbHUP6AXWau5ahM="
   },
   "locale/af-json.js": {
@@ -5190,12 +5190,12 @@
     "integrity": "sha256-vm3BcKG9+1rCm6uuBThRv+qOXDoUAVX7q/xw9B6zghQ="
   },
   "locale/ko-json.js": {
-    "src": "/packs/js/locale/ko-json-f767f8aef7145a9fb709.chunk.js",
-    "integrity": "sha256-Ucclzr4T/pX2RwWFyKxh223rhbJ5PLo/YcF4s4LJDcM="
+    "src": "/packs/js/locale/ko-json-a0fbe5905467f3001eef.chunk.js",
+    "integrity": "sha256-gYSy0Ys2B4r8XewlDavRTEPRWd2F9iELfOR8Z8OHvnY="
   },
   "locale/ko-json.js.map": {
-    "src": "/packs/js/locale/ko-json-f767f8aef7145a9fb709.chunk.js.map",
-    "integrity": "sha256-LnZvK8zZW6xIw1WqA1tksIxPy4Wp20XKnqlZ78KbOCw="
+    "src": "/packs/js/locale/ko-json-a0fbe5905467f3001eef.chunk.js.map",
+    "integrity": "sha256-PxW2oMLy7FPBO6OwkBJIE+anaCbbJXDxXQKbzFzJDN0="
   },
   "locale/ku-json.js": {
     "src": "/packs/js/locale/ku-json-9117851efd2d862393ff.chunk.js",
