@@ -11,6 +11,10 @@ import { autoPlayGif, displayMedia, useBlurhash } from 'mastodon/initial_state';
 
 export default class MediaItem extends ImmutablePureComponent {
 
+  static contextTypes = {
+    router: PropTypes.object,
+  };
+
   static propTypes = {
     attachment: ImmutablePropTypes.map.isRequired,
     displayWidth: PropTypes.number.isRequired,
@@ -43,16 +47,19 @@ export default class MediaItem extends ImmutablePureComponent {
     return !autoPlayGif && ['gifv', 'video'].indexOf(this.props.attachment.get('type')) !== -1;
   }
 
-  handleClick = e => {
-    if (e.button === 0 && !(e.ctrlKey || e.metaKey)) {
-      e.preventDefault();
+  handleClick = (e, uri) => {
+    e.preventDefault();
+    const { router } = this.context;
+    router.history.push(uri);
+    // if (e.button === 0 && !(e.ctrlKey || e.metaKey)) {
+    //   e.preventDefault();
 
-      if (this.state.visible) {
-        this.props.onOpenMedia(this.props.attachment);
-      } else {
-        this.setState({ visible: true });
-      }
-    }
+    //   if (this.state.visible) {
+    //     this.props.onOpenMedia(this.props.attachment);
+    //   } else {
+    //     this.setState({ visible: true });
+    //   }
+    // }
   };
 
   render () {
@@ -139,7 +146,7 @@ export default class MediaItem extends ImmutablePureComponent {
 
     return (
       <div className='account-gallery__item' style={{ width, height }}>
-        <a className='media-gallery__item-thumbnail' href={`/@${status.getIn(['account', 'acct'])}/${status.get('id')}`} onClick={this.handleClick} title={title} target='_blank' rel='noopener noreferrer'>
+        <a className='media-gallery__item-thumbnail' href={`/@${status.getIn(['account', 'acct'])}/${status.get('id')}`} onClick={(e) => {this.handleClick(e, `/@${status.getIn(['account', 'acct'])}/${status.get('id')}`)}} title={title} target='_blank' rel='noopener noreferrer'>
           <Blurhash
             hash={attachment.get('blurhash')}
             className={classNames('media-gallery__preview', { 'media-gallery__preview--hidden': visible && loaded })}
