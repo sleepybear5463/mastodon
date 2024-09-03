@@ -110,7 +110,7 @@ const pgConfigFromEnv = (env) => {
         baseConfig.ssl = { rejectUnauthorized: false };
         break;
       default:
-        baseConfig.ssl = {};
+        baseConfig.ssl = { rejectUnauthorized: false };
         break;
       }
     }
