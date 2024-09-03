@@ -299,7 +299,7 @@ class MediaGallery extends PureComponent {
     const style = {};
 
     if (this.isFullSizeEligible()) {
-      style.aspectRatio = `${this.props.media.getIn([0, 'meta', 'small', 'aspect'])}`;
+      style.aspectRatio = `1 / 1`;
     } else {
       style.aspectRatio = '3 / 2';
     }
