@@ -2,7 +2,7 @@
 # important settings can be changed from the admin interface.
 
 defaults: &defaults
-  site_title: Mastodon
+  site_title: COSMOS:COSMOS
   site_short_description: ''
   site_description: ''
   site_extended_description: ''
@@ -16,7 +16,7 @@ defaults: &defaults
   show_staff_badge: true
   preview_sensitive_media: false
   noindex: true
-  theme: 'mastodon-bird-ui-dark'
+  theme: 'mastodon-bird-ui-dark-cosmos'
   trends: false
   trends_as_landing_page: false
   trendable_by_default: false
