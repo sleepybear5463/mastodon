@@ -1,0 +1,34 @@
+.app-body {
+  background: url(../images/cosmos/dark-background.png);
+  background-position: bottom;
+  background-attachment: fixed;
+}
+
+.columns-tabs-bar__wrapper {
+  background: var(--color-bg-75);
+}
+
+.columns-area {
+  background: var(--color-bg-75);
+}
+
+.drawer {
+  background: var(--color-bg);
+}
+
+.admin-wrapper .sidebar .logo--light {
+  display: none;
+}
+
+.layout-single-column .ui__header__logo,
+.layout-multiple-columns .ui__header__logo,
+.layout-single-column .column-link.column-link--logo,
+.layout-multiple-columns .column-link.column-link--logo {
+  background-image: url('../images/wordmark.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 245px 119px;
+  height: 119px;
+  padding: 0;
+  width: 245px;
+}

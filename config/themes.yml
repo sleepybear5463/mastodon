@@ -4,3 +4,6 @@ mastodon-light: styles/mastodon-light.scss
 mastodon-bird-ui-light: styles/mastodon-bird-ui-light.scss
 mastodon-bird-ui-contrast: styles/mastodon-bird-ui-contrast.scss
 mastodon-bird-ui-dark: styles/mastodon-bird-ui-dark.scss
+mastodon-bird-ui-dark-cosmos: styles/mastodon-bird-ui-dark-cosmos.scss
+mastodon-bird-ui-light-a-cosmos: styles/mastodon-bird-ui-light-a-cosmos.scss
+mastodon-bird-ui-light-b-cosmos: styles/mastodon-bird-ui-light-b-cosmos.scss

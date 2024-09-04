@@ -241,7 +241,8 @@ body.theme-contrast.layout-single-column {
 }
 
 /* Light theme */
-body.theme-mastodon-light.layout-single-column {
+// body.theme-mastodon-bird-ui-light.layout-single-column {
+[class*='theme-mastodon-bird-ui-light'][class$='layout-single-column'] {
   --color-bg: #fff;
   --color-fg: #000;
   --color-border: #e6e1ed;

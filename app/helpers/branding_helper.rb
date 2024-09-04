@@ -18,8 +18,12 @@ module BrandingHelper
     content_tag(:svg, tag.use(href: '#logo-symbol-icon'), viewBox: '0 0 79 79', class: 'logo logo--icon')
   end
 
-  def render_logo
-    image_pack_tag('logo.svg', alt: 'Mastodon', class: 'logo logo--icon')
+  def render_light_logo
+    image_pack_tag('cosmos/light-logo.svg', alt: 'Mastodon', class: 'logo logo--icon logo--light')
+  end
+
+  def render_dark_logo
+    image_pack_tag('cosmos/dark-logo.svg', alt: 'Mastodon', class: 'logo logo--icon logo--dark')
   end
 
   def render_symbol(version = :icon)
