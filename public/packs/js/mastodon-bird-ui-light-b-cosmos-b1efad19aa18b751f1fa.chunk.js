@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[584],{1074:function(n,w,o){"use strict";o.r(w)}},[[1074,0]]]);
+//# sourceMappingURL=mastodon-bird-ui-light-b-cosmos-b1efad19aa18b751f1fa.chunk.js.map
