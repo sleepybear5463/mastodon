@@ -352,7 +352,7 @@ class Status extends ImmutablePureComponent {
 
     const { router } = this.context;
 
-    if (status === null || ((contextType === 'home' || contextType === 'notifications') && status.get('visibility') === 'direct')) {
+    if (status === null || ((contextType === 'home' || contextType === 'notifications' || contextType === 'account') && status.get('visibility') === 'direct')) {
       return null;
     }
 
