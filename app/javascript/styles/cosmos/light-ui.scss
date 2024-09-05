@@ -26,3 +26,40 @@
   padding: 0;
   width: 245px;
 }
+
+[class*='theme-mastodon-bird-ui-light'][class$='layout-single-column'],
+[class*='theme-mastodon-bird-ui-light'][class$='layout-multiple-columns'] {
+  --color-topaz: #aa8a5c;
+  --color-dim: #aa8a5c;
+}
+
+.status__action-bar .fa {
+  filter: brightness(0) saturate(100%) invert(57%) sepia(57%) saturate(283%)
+    hue-rotate(356deg) brightness(88%) contrast(89%);
+}
+
+.navigation-bar strong {
+  --color-gainsboro: #aa8a5c;
+}
+
+.navigation-bar__profile-edit span {
+  color: #aa8a5c;
+}
+
+.compose-form__publish .button {
+  --color-accent-dark: #876739;
+}
+
+.notification__filter-bar button.active::after {
+  --color-accent: #876739;
+}
+
+.account__section-headline a.active::after {
+  --color-accent: #876739;
+}
+
+.search__input,
+.search .search__icon .fa-search {
+  --color-mud: #e8e3dc;
+  --color-dim: #876739;
+}
